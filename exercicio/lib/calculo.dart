@@ -1,12 +1,7 @@
 import 'package:exercicio/main.dart';
-import 'package:exercicio/src/cadastro.dart';
 
 class Calculo {
-  Cadastro _cadastro = Cadastro();
-  double imc = 0;
-
-  calculoImc() {
-    imc = cadastro.getPeso / (cadastro.getAltura * cadastro.getAltura);
-    return imc;
-  }
+  //calcular IMC
+  double calculoImc() => cadastro.getPeso / (cadastro.getAltura * cadastro.getAltura);
+  //exemplo de arrow funciton.. o metodo vai retornar o valor automaticamente.
 }
